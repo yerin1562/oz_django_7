@@ -4,7 +4,7 @@ on:
   push:
 # actions triggered when you push
 jobs:
-  ci: # jobs' name
+  ci:
     runs-on: ubuntu-22.04
     env:
       DB_HOST: 127.0.0.1
